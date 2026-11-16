@@ -5,6 +5,7 @@ Professional website builder landing site for small &amp; medium businesses, bui
 
 ## Features
 
+- **Live site**: <https://webgo.fun/> (deployed on Alibaba Cloud ECS behind Nginx + HTTPS)
 - **Homepage** (`/`) — English, mobile-first. Presents the services: Content Showcase,
   AI Agent Building and AI Customer Service. Pricing from **€80 / year** with lifetime
   after-sales support.
@@ -45,7 +46,7 @@ docker compose up --build
 
 ---
 
-## Deploy to Ubuntu
+## Deploy to Ubuntu / Debian (apt-based)
 
 These steps assume a fresh Ubuntu 22.04/24.04 server and a user with `sudo`.
 
@@ -112,7 +113,146 @@ docker compose down           # stop and remove the container
 
 ---
 
-## Optional: custom domain + HTTPS (Nginx reverse proxy)
+## Deploy to Alibaba Cloud Linux 3 / Anolis (verified)
+
+The following is the exact, verified flow for **Alibaba Cloud Linux 3 (OpenAnolis Edition)**,
+which uses `dnf` (not `apt`) and keeps Nginx config under `/etc/nginx/conf.d/` (not
+`sites-available/`). This is how <https://webgo.fun/> was deployed.
+
+### 1. Install Docker and start the app
+
+```bash
+sudo dnf install -y docker git
+sudo systemctl enable --now docker
+sudo usermod -aG docker $USER      # then re-login (or run: newgrp docker)
+
+git clone <your-repo-url> webgo
+cd webgo
+docker compose up -d --build
+curl http://localhost/healthz      # -> {"status":"ok"}
+```
+
+At this point the container publishes port 80 directly and the site is reachable at
+`http://<server-ip>/`.
+
+### 2. Open ports in the Alibaba Cloud Security Group
+
+In the ECS console → Security Group → inbound rules, allow:
+
+- `80/tcp` (HTTP / certificate validation)
+- `443/tcp` (HTTPS)
+
+Source `0.0.0.0/0`. This is separate from any OS firewall and is required for public access.
+
+### 3. Point the domain at the server
+
+Add two DNS **A records** for your domain, both pointing to the server's public IP:
+
+| Host | Type | Value |
+|------|------|-------|
+| `@`  | A    | your-server-ip |
+| `www`| A    | your-server-ip |
+
+Verify with `ping webgo.fun` before continuing.
+
+### 4. Free port 80 for Nginx
+
+Nginx must own ports 80/443, so move the container to a local-only port:
+
+```bash
+cd ~/webgo
+sed -i 's|"80:5000"|"127.0.0.1:8000:5000"|' docker-compose.yml
+grep -n 5000 docker-compose.yml            # expect: - "127.0.0.1:8000:5000"
+docker compose up -d --force-recreate
+docker compose ps                          # PORTS -> 127.0.0.1:8000->5000/tcp
+sudo ss -tlnp | grep ':80 '                # should print nothing (port 80 free)
+```
+
+> Note: `docker compose up -d` only recreates the container when the config actually
+> changed. If `docker compose ps` still shows `0.0.0.0:80->5000`, use `--force-recreate`.
+
+### 5. Install and configure Nginx
+
+```bash
+sudo dnf install -y nginx
+
+sudo tee /etc/nginx/conf.d/webgo.conf > /dev/null <<'EOF'
+server {
+    listen 80;
+    listen [::]:80;
+    server_name webgo.fun www.webgo.fun;
+
+    location / {
+        proxy_pass http://127.0.0.1:8000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+EOF
+
+sudo nginx -t
+sudo systemctl enable --now nginx
+curl -I http://webgo.fun            # HTTP/1.1 200 OK, Server: nginx
+```
+
+A ready-made copy of this file lives at `nginx/webgo.conf` in the repo.
+
+### 6. Enable HTTPS with a free Let's Encrypt certificate
+
+```bash
+sudo dnf install -y certbot python3-certbot-nginx   # add EPEL first if needed: sudo dnf install -y epel-release
+sudo certbot --nginx -d webgo.fun -d www.webgo.fun
+```
+
+Answer the prompts:
+
+1. **Email** — a real address (expiry reminders)
+2. **Agree to Terms of Service** — **Y** (required; this is just the usage agreement, no cost)
+3. **Share email with EFF** — N (optional)
+4. **Redirect HTTP to HTTPS** — choose **2 (Redirect)**
+
+Certbot deploys the certificate into `/etc/nginx/conf.d/webgo.conf`, enables the HTTP→HTTPS
+redirect, and schedules automatic renewal. Verify:
+
+```bash
+curl -I https://webgo.fun          # HTTP/2 200
+sudo certbot renew --dry-run       # confirm auto-renewal works
+```
+
+### 7. Firewall note (if firewalld is enabled)
+
+```bash
+sudo firewall-cmd --permanent --add-service=http
+sudo firewall-cmd --permanent --add-service=https
+sudo firewall-cmd --reload
+```
+
+### Architecture after setup
+
+```
+User → https://webgo.fun (443)
+     → Nginx (TLS termination + reverse proxy)
+     → Docker container (127.0.0.1:8000 → gunicorn:5000)
+     → Flask app
+```
+
+Updating the site later does not touch Nginx or the certificate:
+
+```bash
+cd ~/webgo
+git pull
+docker compose up -d --build
+```
+
+---
+
+## Optional: custom domain + HTTPS on Ubuntu/Debian (Nginx reverse proxy)
+
+> For **Alibaba Cloud Linux / CentOS**, use the `dnf`-based section above instead —
+> its Nginx config lives in `/etc/nginx/conf.d/`, not `sites-available/`.
+
 
 If you want a domain and a free TLS certificate, run WebGo on an internal port and put
 Nginx + Certbot in front.

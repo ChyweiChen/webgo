@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>WebGo — Professional Websites for Small &amp; Medium Businesses</title>
+<meta name="description" content="WebGo builds professional websites for small and medium businesses: content showcases, AI agent integration and AI customer service. From only €80 per year with lifetime after-sales support.">
+<meta name="theme-color" content="#0b1120">
+<meta property="og:type" content="website">
+<meta property="og:title" content="WebGo — Websites for Small &amp; Medium Businesses">
+<meta property="og:description" content="Professional websites from €80/year with lifetime support. Content showcases, AI agents and AI customer service.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1120'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Arial,sans-serif' font-size='30' font-weight='700' fill='%2338bdf8'%3EW%3C/text%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #0b1120;
+    --bg-soft: #111a2e;
+    --card: #152138;
+    --line: #243350;
+    --text: #e6edf7;
+    --muted: #9fb0c9;
+    --accent: #38bdf8;
+    --accent-2: #818cf8;
+    --radius: 16px;
+    --max: 1120px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; text-decoration: none; }
+  img { max-width: 100%; display: block; }
+  .wrap { width: 100%; max-width: var(--max); margin: 0 auto; padding: 0 20px; }
+
+  header.site {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(11, 17, 32, 0.85);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav { display: flex; align-items: center; justify-content: space-between; height: 62px; }
+  .brand { font-weight: 800; letter-spacing: .3px; font-size: 1.25rem; }
+  .brand span { color: var(--accent); }
+  .nav-links { display: none; gap: 26px; font-size: .95rem; color: var(--muted); }
+  .nav-links a:hover { color: var(--text); }
+  .btn {
+    display: inline-block; font-weight: 600; font-size: .95rem;
+    padding: 11px 20px; border-radius: 999px; border: 1px solid transparent;
+    cursor: pointer; transition: transform .15s ease, background .2s ease;
+  }
+  .btn-primary { background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: #06101f; }
+  .btn-primary:hover { transform: translateY(-2px); }
+  .btn-ghost { border-color: var(--line); color: var(--text); }
+  .btn-ghost:hover { border-color: var(--accent); }
+
+  .hero { padding: 64px 0 48px; text-align: center; }
+  .eyebrow {
+    display: inline-block; font-size: .8rem; letter-spacing: 1.5px; text-transform: uppercase;
+    color: var(--accent); background: rgba(56,189,248,.1);
+    border: 1px solid rgba(56,189,248,.25); padding: 6px 14px; border-radius: 999px; margin-bottom: 22px;
+  }
+  .hero h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.12; margin: 0 0 18px; font-weight: 800; }
+  .hero h1 em { font-style: normal; background: linear-gradient(135deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .hero p.lead { font-size: 1.1rem; color: var(--muted); max-width: 640px; margin: 0 auto 30px; }
+  .hero-cta { display: flex; flex-direction: column; gap: 12px; align-items: center; }
+
+  .price-tag {
+    display: inline-flex; flex-wrap: wrap; justify-content: center; gap: 8px 18px; margin-top: 26px;
+    font-size: .95rem; color: var(--muted);
+  }
+  .price-tag strong { color: var(--text); }
+  .price-tag .big { color: var(--accent); font-size: 1.15rem; font-weight: 800; }
+
+  section { padding: 56px 0; }
+  .section-head { text-align: center; max-width: 620px; margin: 0 auto 40px; }
+  .section-head h2 { font-size: clamp(1.6rem, 5vw, 2.3rem); margin: 0 0 12px; font-weight: 800; }
+  .section-head p { color: var(--muted); margin: 0; }
+
+  .grid { display: grid; grid-template-columns: 1fr; gap: 20px; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 28px 24px; transition: transform .18s ease, border-color .2s ease;
+  }
+  .card:hover { transform: translateY(-4px); border-color: var(--accent); }
+  .card .ic {
+    width: 52px; height: 52px; border-radius: 14px; display: grid; place-items: center;
+    background: rgba(56,189,248,.12); font-size: 26px; margin-bottom: 18px;
+  }
+  .card h3 { margin: 0 0 10px; font-size: 1.25rem; }
+  .card p { margin: 0; color: var(--muted); font-size: .98rem; }
+
+  .alt { background: var(--bg-soft); }
+
+  .port-grid { display: grid; grid-template-columns: 1fr; gap: 22px; }
+  .port {
+    display: block; background: var(--card); border: 1px solid var(--line);
+    border-radius: var(--radius); overflow: hidden; transition: transform .18s ease, border-color .2s ease;
+  }
+  .port:hover { transform: translateY(-4px); border-color: var(--accent); }
+  .port .thumb { height: 170px; display: grid; place-items: center; font-size: 2.4rem; font-weight: 800;
+    background: linear-gradient(135deg, #1b2a49, #243b66); color: var(--accent); letter-spacing: 1px; }
+  .port .body { padding: 20px 22px; }
+  .port .body h3 { margin: 0 0 6px; font-size: 1.2rem; }
+  .port .body p { margin: 0 0 14px; color: var(--muted); font-size: .95rem; }
+  .port .link { color: var(--accent); font-weight: 600; font-size: .95rem; }
+
+  .steps { display: grid; grid-template-columns: 1fr; gap: 18px; }
+  .step { display: flex; gap: 16px; align-items: flex-start; }
+  .step .num {
+    flex: 0 0 auto; width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center;
+    font-weight: 800; background: rgba(129,140,248,.15); color: var(--accent-2);
+  }
+  .step h4 { margin: 2px 0 4px; font-size: 1.08rem; }
+  .step p { margin: 0; color: var(--muted); font-size: .95rem; }
+
+  .cta-box {
+    background: linear-gradient(135deg, rgba(56,189,248,.12), rgba(129,140,248,.12));
+    border: 1px solid var(--line); border-radius: 22px; padding: 44px 24px; text-align: center;
+  }
+  .cta-box h2 { font-size: clamp(1.5rem, 5vw, 2.2rem); margin: 0 0 12px; }
+  .cta-box p { color: var(--muted); margin: 0 auto 26px; max-width: 520px; }
+
+  footer.site { border-top: 1px solid var(--line); padding: 34px 0; color: var(--muted); font-size: .9rem; }
+  .foot { display: flex; flex-direction: column; gap: 14px; align-items: center; text-align: center; }
+  .foot-links { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+  .foot-links a:hover { color: var(--text); }
+
+  @media (min-width: 720px) {
+    .nav-links { display: flex; }
+    .hero-cta { flex-direction: row; justify-content: center; }
+    .grid { grid-template-columns: repeat(3, 1fr); }
+    .port-grid { grid-template-columns: repeat(2, 1fr); }
+    .steps { grid-template-columns: repeat(2, 1fr); gap: 26px 40px; }
+    .foot { flex-direction: row; justify-content: space-between; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <div class="brand">Web<span>Go</span></div>
+    <nav class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#work">Our Work</a>
+      <a href="#process">Process</a>
+      <a href="#pricing">Pricing</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary">Get Started</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow">Websites for Small &amp; Medium Businesses</span>
+      <h1>Your business online, <em>beautifully built</em> and ready to grow.</h1>
+      <p class="lead">
+        We design and build professional websites for small and medium businesses — from
+        elegant content showcases to AI-powered agents and round-the-clock AI customer service.
+      </p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">Start your website</a>
+        <a href="#work" class="btn btn-ghost">See live examples</a>
+      </div>
+      <div class="price-tag">
+        <span>From <span class="big">€80 / year</span></span>
+        <span><strong>Lifetime after-sales support</strong></span>
+        <span>Mobile-first by default</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>What we build for you</h2>
+        <p>Everything a modern small business needs to look credible online and serve customers automatically.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <div class="ic">🖥️</div>
+          <h3>Content Showcase</h3>
+          <p>A polished, mobile-first website that presents your products, services and story — fast-loading, SEO-friendly and easy to update.</p>
+        </article>
+        <article class="card">
+          <div class="ic">🤖</div>
+          <h3>AI Agent Building</h3>
+          <p>Custom AI agents tailored to your business that answer questions, qualify leads and automate everyday tasks for your team.</p>
+        </article>
+        <article class="card">
+          <div class="ic">💬</div>
+          <h3>AI Customer Service</h3>
+          <p>A 24/7 AI assistant that greets visitors, handles enquiries and books appointments — so you never miss a customer.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="alt">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Our work</h2>
+        <p>Real websites we have designed and delivered. Explore them live.</p>
+      </div>
+      <div class="port-grid">
+        {% for site in sites %}
+        <a class="port" href="/{{ site.slug }}/">
+          <div class="thumb">{{ site.name[:2] | upper }}</div>
+          <div class="body">
+            <h3>{{ site.name }}</h3>
+            <p>{{ site.tagline }}</p>
+            <span class="link">View live site →</span>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>How it works</h2>
+        <p>A simple, transparent process — from first chat to a live website.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="num">1</div>
+          <div><h4>Discovery</h4><p>We learn about your business, goals and the customers you want to reach.</p></div>
+        </div>
+        <div class="step">
+          <div class="num">2</div>
+          <div><h4>Design &amp; Build</h4><p>We craft a clean, mobile-first site and wire up your AI agent and customer service.</p></div>
+        </div>
+        <div class="step">
+          <div class="num">3</div>
+          <div><h4>Launch</h4><p>We publish your website, connect your domain and make sure everything runs smoothly.</p></div>
+        </div>
+        <div class="step">
+          <div class="num">4</div>
+          <div><h4>Lifetime Support</h4><p>Ongoing updates and help, included — your website stays fresh for years to come.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="alt">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Simple, honest pricing</h2>
+        <p>One low annual price. No hidden fees. Lifetime after-sales support included.</p>
+      </div>
+      <div class="cta-box">
+        <h2>From only €80 / year</h2>
+        <p>Professional website, AI agent and AI customer service — built for small and medium businesses, with lifetime support at no extra cost.</p>
+        <a href="#contact" class="btn btn-primary">Get your quote</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="cta-box">
+        <h2>Ready to get started?</h2>
+        <p>Tell us about your business and we'll have a professional website ready sooner than you think.</p>
+        <a href="mailto:hello@webgo.example" class="btn btn-primary">Contact us</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap foot">
+    <div class="brand">Web<span>Go</span></div>
+    <nav class="foot-links">
+      <a href="#services">Services</a>
+      <a href="#work">Our Work</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div>© <span id="year"></span> WebGo. Websites for small &amp; medium businesses.</div>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

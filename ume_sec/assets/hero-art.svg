@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 980" width="760" height="980" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FBF8F3"/><stop offset="1" stop-color="#F4EDE2"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="50%" cy="35%" r="65%">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity=".85"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="skin" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#CE9F82"/><stop offset=".42" stop-color="#E4BBA0"/>
+    <stop offset=".78" stop-color="#F0CFB6"/><stop offset="1" stop-color="#CE9F82"/>
+  </linearGradient>
+  <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#2B3E63"/><stop offset=".55" stop-color="#1B2A47"/>
+    <stop offset="1" stop-color="#12203A"/>
+  </linearGradient>
+  <linearGradient id="nude" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FBEAE0"/><stop offset=".55" stop-color="#F6DED0"/>
+    <stop offset="1" stop-color="#E9C6B6"/>
+  </linearGradient>
+  <linearGradient id="milky" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset=".6" stop-color="#F8F1E9"/>
+    <stop offset="1" stop-color="#E9DAC9"/>
+  </linearGradient>
+  <pattern id="dots" width="27" height="27" patternUnits="userSpaceOnUse">
+    <circle cx="8" cy="8" r="4.3" fill="#FFFFFF" opacity=".95"/>
+    <circle cx="21" cy="20" r="3.1" fill="#FFFFFF" opacity=".88"/>
+    <circle cx="24" cy="3" r="1.7" fill="#FFFFFF" opacity=".7"/>
+  </pattern>
+  <pattern id="dotsFine" width="19" height="19" patternUnits="userSpaceOnUse">
+    <circle cx="6" cy="6" r="3" fill="#FFFFFF" opacity=".95"/>
+    <circle cx="15" cy="15" r="2.2" fill="#FFFFFF" opacity=".85"/>
+  </pattern>
+  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+    <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#4A3B2A" flood-opacity=".16"/>
+  </filter>
+  <filter id="softSmall" x="-40%" y="-40%" width="180%" height="180%">
+    <feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#4A3B2A" flood-opacity=".14"/>
+  </filter>
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+  </filter>
+  
+</defs>
+
+<rect width="760" height="980" fill="url(#bg)"/>
+<circle cx="380" cy="400" r="330" fill="#FFFFFF" opacity=".38"/>
+<circle cx="380" cy="400" r="286" fill="none" stroke="#D9C39B" stroke-width="1.4" opacity=".8"/>
+<circle cx="380" cy="400" r="304" fill="none" stroke="#D9C39B" stroke-width=".8" opacity=".5"/>
+<ellipse cx="380" cy="905" rx="300" ry="42" fill="#B99A6B" opacity=".10"/>
+<g transform="translate(120 392) rotate(-17) scale(1.02)">
+  <defs><clipPath id="cliph1"><path d="M50 0 C21 26 1 68 1 108 C1 145 20 166 50 166 C80 166 99 145 99 108 C99 68 79 26 50 0 Z"/></clipPath></defs>
+  <rect x="3" y="138" width="94" height="300" rx="46" fill="url(#skin)"/>
+  <g filter="url(#softSmall)">
+    <path d="M50 0 C21 26 1 68 1 108 C1 145 20 166 50 166 C80 166 99 145 99 108 C99 68 79 26 50 0 Z" fill="url(#navy)"/><path d="M50 0 C21 26 1 68 1 108 C1 145 20 166 50 166 C80 166 99 145 99 108 C99 68 79 26 50 0 Z" fill="url(#dots)" clip-path="url(#cliph1)"/>
+    <path d="M50 0 C22 25 2 66 2 96 C18 78 33 72 50 72 C67 72 82 78 98 96 C98 66 78 25 50 0 Z" fill="#FFFFFF" opacity=".95"/>
+    <path d="M50 0 C21 26 1 68 1 108 C1 145 20 166 50 166 C80 166 99 145 99 108 C99 68 79 26 50 0 Z" fill="none" stroke="#FFFFFF" stroke-width="1.4" opacity=".5"/>
+    <path d="M22 44 C14 66 10 88 11 112" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity=".22"/>
+  </g>
+</g><g transform="translate(228 318) rotate(-9) scale(1.1)">
+  <defs><clipPath id="cliph2"><path d="M50 0 C21 26 1 68 1 108 C1 145 20 166 50 166 C80 166 99 145 99 108 C99 68 79 26 50 0 Z"/></clipPath></defs>
+  <rect x="3" y="138" width="94" height="340" rx="46" fill="url(#skin)"/>
+  <g filter="url(#softSmall)">
+    <path d="M50 0 C21 26 1 68 1 108 C1 145 20 166 50 166 C80 166 99 145 99 108 C99 68 79 26 50 0 Z" fill="url(#nude)"/>
+    <path d="M50 0 C22 25 2 66 2 96 C18 78 33 72 50 72 C67 72 82 78 98 96 C98 66 78 25 50 0 Z" fill="#FFFFFF" opacity=".96"/><path d="M6 99 C24 80 34 76 50 76 C66 76 79 80 94 99" fill="none" stroke="#B99A6B" stroke-width="1.6" opacity=".85"/>
+    <path d="M50 0 C21 26 1 68 1 108 C1 145 20 166 50 166 C80 166 99 145 99 108 C99 68 79 26 50 0 Z" fill="none" stroke="#FFFFFF" stroke-width="1.4" opacity=".5"/>
+    <path d="M22 44 C14 66 10 88 11 112" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity=".22"/>
+  </g>
+</g><g transform="translate(348 286) rotate(-1) scale(1.16)">
+  <defs><clipPath id="cliph3"><path d="M50 0 C21 26 1 68 1 108 C1 145 20 166 50 166 C80 166 99 145 99 108 C99 68 79 26 50 0 Z"/></clipPath></defs>
+  <rect x="3" y="138" width="94" height="360" rx="46" fill="url(#skin)"/>
+  <g filter="url(#softSmall)">
+    <path d="M50 0 C21 26 1 68 1 108 C1 145 20 166 50 166 C80 166 99 145 99 108 C99 68 79 26 50 0 Z" fill="url(#navy)"/><path d="M50 0 C21 26 1 68 1 108 C1 145 20 166 50 166 C80 166 99 145 99 108 C99 68 79 26 50 0 Z" fill="url(#dots)" clip-path="url(#cliph3)"/>
+    <path d="M50 0 C22 25 2 66 2 96 C18 78 33 72 50 72 C67 72 82 78 98 96 C98 66 78 25 50 0 Z" fill="#FFFFFF" opacity=".95"/>
+    <path d="M50 0 C21 26 1 68 1 108 C1 145 20 166 50 166 C80 166 99 145 99 108 C99 68 79 26 50 0 Z" fill="none" stroke="#FFFFFF" stroke-width="1.4" opacity=".5"/>
+    <path d="M22 44 C14 66 10 88 11 112" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity=".22"/>
+  </g>
+</g><g transform="translate(472 316) rotate(9) scale(1.1)">
+  <defs><clipPath id="cliph4"><path d="M50 0 C21 26 1 68 1 108 C1 145 20 166 50 166 C80 166 99 145 99 108 C99 68 79 26 50 0 Z"/></clipPath></defs>
+  <rect x="3" y="138" width="94" height="340" rx="46" fill="url(#skin)"/>
+  <g filter="url(#softSmall)">
+    <path d="M50 0 C21 26 1 68 1 108 C1 145 20 166 50 166 C80 166 99 145 99 108 C99 68 79 26 50 0 Z" fill="url(#nude)"/>
+    <path d="M50 0 C22 25 2 66 2 96 C18 78 33 72 50 72 C67 72 82 78 98 96 C98 66 78 25 50 0 Z" fill="url(#navy)"/><path d="M50 0 C22 25 2 66 2 96 C18 78 33 72 50 72 C67 72 82 78 98 96 C98 66 78 25 50 0 Z" fill="url(#dotsFine)"/><path d="M50 0 C22 25 2 66 2 96 C18 78 33 72 50 72 C67 72 82 78 98 96 C98 66 78 25 50 0 Z" fill="none" stroke="#FFFFFF" stroke-width="2" opacity=".7"/>
+    <path d="M50 0 C21 26 1 68 1 108 C1 145 20 166 50 166 C80 166 99 145 99 108 C99 68 79 26 50 0 Z" fill="none" stroke="#FFFFFF" stroke-width="1.4" opacity=".5"/>
+    <path d="M22 44 C14 66 10 88 11 112" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity=".22"/>
+  </g>
+</g><g transform="translate(582 388) rotate(17) scale(1.02)">
+  <defs><clipPath id="cliph5"><path d="M50 0 C21 26 1 68 1 108 C1 145 20 166 50 166 C80 166 99 145 99 108 C99 68 79 26 50 0 Z"/></clipPath></defs>
+  <rect x="3" y="138" width="94" height="300" rx="46" fill="url(#skin)"/>
+  <g filter="url(#softSmall)">
+    <path d="M50 0 C21 26 1 68 1 108 C1 145 20 166 50 166 C80 166 99 145 99 108 C99 68 79 26 50 0 Z" fill="url(#nude)"/>
+    <path d="M50 0 C22 25 2 66 2 96 C18 78 33 72 50 72 C67 72 82 78 98 96 C98 66 78 25 50 0 Z" fill="#FFFFFF" opacity=".96"/><path d="M6 99 C24 80 34 76 50 76 C66 76 79 80 94 99" fill="none" stroke="#B99A6B" stroke-width="1.6" opacity=".85"/>
+    <path d="M50 0 C21 26 1 68 1 108 C1 145 20 166 50 166 C80 166 99 145 99 108 C99 68 79 26 50 0 Z" fill="none" stroke="#FFFFFF" stroke-width="1.4" opacity=".5"/>
+    <path d="M22 44 C14 66 10 88 11 112" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity=".22"/>
+  </g>
+</g>
+<g fill="#B99A6B" opacity=".75">
+  <path d="M108 208 l4 12 12 4 -12 4 -4 12 -4 -12 -12 -4 12 -4 z"/>
+  <path d="M650 250 l3 9 9 3 -9 3 -3 9 -3 -9 -9 -3 9 -3 z"/>
+  <circle cx="86" cy="520" r="3"/><circle cx="676" cy="578" r="3"/>
+</g>
+<rect width="760" height="980" filter="url(#grain)" opacity=".045"/>
+
+</svg>

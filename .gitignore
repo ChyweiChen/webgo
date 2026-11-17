@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.idea/
+
+# Local, host-specific environment settings (do not commit)
+.env
+docker-compose.override.yml

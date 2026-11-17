@@ -5,7 +5,7 @@ services:
     container_name: webgo
     restart: unless-stopped
     ports:
-      - "127.0.0.1:8000:5000"
+      - "${WEB_BIND:-0.0.0.0:80}:5000"
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5000/healthz')"]
       interval: 30s

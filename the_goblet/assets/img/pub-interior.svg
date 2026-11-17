@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Illustration of a traditional Irish pub interior with a fireplace and brass bar">
+<defs>
+  <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#3A2416"/>
+    <stop offset=".5" stop-color="#6B452A"/>
+    <stop offset="1" stop-color="#2B1A10"/>
+  </linearGradient>
+  <linearGradient id="stout" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#0A0706"/>
+    <stop offset=".28" stop-color="#241812"/>
+    <stop offset=".62" stop-color="#1B120D"/>
+    <stop offset="1" stop-color="#080504"/>
+  </linearGradient>
+  <linearGradient id="foam" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFF9EC"/>
+    <stop offset=".6" stop-color="#F3E7CE"/>
+    <stop offset="1" stop-color="#DBC7A4"/>
+  </linearGradient>
+  <linearGradient id="brass" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#8A6A31"/>
+    <stop offset=".35" stop-color="#E7C888"/>
+    <stop offset=".7" stop-color="#C8A45C"/>
+    <stop offset="1" stop-color="#6E5226"/>
+  </linearGradient>
+  <radialGradient id="glow" cx=".5" cy=".42" r=".62">
+    <stop offset="0" stop-color="#F0C77A" stop-opacity=".42"/>
+    <stop offset=".55" stop-color="#C88F45" stop-opacity=".16"/>
+    <stop offset="1" stop-color="#C88F45" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity=".30"/>
+    <stop offset=".18" stop-color="#FFFFFF" stop-opacity=".06"/>
+    <stop offset=".8" stop-color="#FFFFFF" stop-opacity="0"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity=".18"/>
+  </linearGradient>
+  <filter id="grain">
+    <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+  </filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+
+  <linearGradient id="fire" x1="0" y1="1" x2="0" y2="0">
+    <stop offset="0" stop-color="#E06A1F"/><stop offset=".5" stop-color="#F2A53C"/><stop offset="1" stop-color="#F6D98A"/>
+  </linearGradient>
+</defs>
+
+<rect width="900" height="600" fill="#0A1C15"/>
+<rect x="0" y="0" width="900" height="474" fill="url(#wood)"/>
+<rect x="0.0" y="0" width="1.6" height="474" fill="#000" opacity="0.05"/><rect x="45.0" y="0" width="1.6" height="474" fill="#000" opacity="0.08"/><rect x="90.0" y="0" width="1.6" height="474" fill="#000" opacity="0.10"/><rect x="135.0" y="0" width="1.6" height="474" fill="#000" opacity="0.12"/><rect x="180.0" y="0" width="1.6" height="474" fill="#000" opacity="0.05"/><rect x="225.0" y="0" width="1.6" height="474" fill="#000" opacity="0.08"/><rect x="270.0" y="0" width="1.6" height="474" fill="#000" opacity="0.10"/><rect x="315.0" y="0" width="1.6" height="474" fill="#000" opacity="0.12"/><rect x="360.0" y="0" width="1.6" height="474" fill="#000" opacity="0.05"/><rect x="405.0" y="0" width="1.6" height="474" fill="#000" opacity="0.08"/><rect x="450.0" y="0" width="1.6" height="474" fill="#000" opacity="0.10"/><rect x="495.0" y="0" width="1.6" height="474" fill="#000" opacity="0.12"/><rect x="540.0" y="0" width="1.6" height="474" fill="#000" opacity="0.05"/><rect x="585.0" y="0" width="1.6" height="474" fill="#000" opacity="0.08"/><rect x="630.0" y="0" width="1.6" height="474" fill="#000" opacity="0.10"/><rect x="675.0" y="0" width="1.6" height="474" fill="#000" opacity="0.12"/><rect x="720.0" y="0" width="1.6" height="474" fill="#000" opacity="0.05"/><rect x="765.0" y="0" width="1.6" height="474" fill="#000" opacity="0.08"/><rect x="810.0" y="0" width="1.6" height="474" fill="#000" opacity="0.10"/><rect x="855.0" y="0" width="1.6" height="474" fill="#000" opacity="0.12"/>
+<ellipse cx="450" cy="240" rx="420" ry="250" fill="url(#glow)"/>
+
+<!-- fireplace -->
+<path d="M62 474 V212 C62 130 126 70 206 70 C286 70 350 130 350 212 V474 Z" fill="#241610"/>
+<path d="M84 474 V216 C84 144 138 94 206 94 C274 94 328 144 328 216 V474 Z" fill="#120B07"/>
+<path d="M120 474 V300 C120 252 158 226 206 226 C254 226 292 252 292 300 V474 Z" fill="#0A0604"/>
+<path d="M150 474 C146 424 178 404 190 370 C198 402 224 402 226 440 C240 410 258 402 262 376 C282 412 268 452 260 474 Z" fill="url(#fire)" opacity=".92"/>
+<ellipse cx="206" cy="420" rx="90" ry="80" fill="#F4A33C" opacity=".18" filter="url(#soft)"/>
+<rect x="46" y="466" width="320" height="18" rx="4" fill="url(#brass)"/>
+
+<!-- shelves and bottles -->
+<g opacity=".7"><rect x="566" y="224" width="310" height="8" fill="#9A6C42"/><rect x="566" y="336" width="310" height="8" fill="#9A6C42"/></g>
+<rect x="596" y="164" width="15" height="44" rx="4" fill="#160D08" opacity=".85"/><rect x="627" y="155" width="15" height="53" rx="4" fill="#160D08" opacity=".85"/><rect x="658" y="146" width="15" height="62" rx="4" fill="#160D08" opacity=".85"/><rect x="689" y="164" width="15" height="44" rx="4" fill="#160D08" opacity=".85"/><rect x="720" y="155" width="15" height="53" rx="4" fill="#160D08" opacity=".85"/><rect x="751" y="146" width="15" height="62" rx="4" fill="#160D08" opacity=".85"/><rect x="782" y="164" width="15" height="44" rx="4" fill="#160D08" opacity=".85"/><rect x="813" y="155" width="15" height="53" rx="4" fill="#160D08" opacity=".85"/><rect x="596" y="258" width="15" height="62" rx="4" fill="#160D08" opacity=".85"/><rect x="627" y="276" width="15" height="44" rx="4" fill="#160D08" opacity=".85"/><rect x="658" y="267" width="15" height="53" rx="4" fill="#160D08" opacity=".85"/><rect x="689" y="258" width="15" height="62" rx="4" fill="#160D08" opacity=".85"/><rect x="720" y="276" width="15" height="44" rx="4" fill="#160D08" opacity=".85"/><rect x="751" y="267" width="15" height="53" rx="4" fill="#160D08" opacity=".85"/><rect x="782" y="258" width="15" height="62" rx="4" fill="#160D08" opacity=".85"/><rect x="813" y="276" width="15" height="44" rx="4" fill="#160D08" opacity=".85"/>
+<path d="M150 88 v42 c0 17 8 26 16 26 s16-9 16-26 V88" fill="none" stroke="#F6EBD6" stroke-opacity=".35" stroke-width="2"/><path d="M192 88 v42 c0 17 8 26 16 26 s16-9 16-26 V88" fill="none" stroke="#F6EBD6" stroke-opacity=".35" stroke-width="2"/><path d="M234 88 v42 c0 17 8 26 16 26 s16-9 16-26 V88" fill="none" stroke="#F6EBD6" stroke-opacity=".35" stroke-width="2"/><path d="M276 88 v42 c0 17 8 26 16 26 s16-9 16-26 V88" fill="none" stroke="#F6EBD6" stroke-opacity=".35" stroke-width="2"/><path d="M318 88 v42 c0 17 8 26 16 26 s16-9 16-26 V88" fill="none" stroke="#F6EBD6" stroke-opacity=".35" stroke-width="2"/><path d="M360 88 v42 c0 17 8 26 16 26 s16-9 16-26 V88" fill="none" stroke="#F6EBD6" stroke-opacity=".35" stroke-width="2"/>
+
+<!-- hanging lamps -->
+<g>
+  <path d="M424 0 v58"/><path d="M604 0 v92"/>
+  <path d="M392 58 h64 l-12-24 h-40 Z" fill="url(#brass)"/>
+  <path d="M572 92 h64 l-12-24 h-40 Z" fill="url(#brass)"/>
+  <ellipse cx="424" cy="82" rx="76" ry="58" fill="#FFD88F" opacity=".12" filter="url(#soft)"/>
+  <ellipse cx="604" cy="116" rx="76" ry="58" fill="#FFD88F" opacity=".12" filter="url(#soft)"/>
+</g>
+
+<!-- brass beer taps -->
+<g transform="translate(470 300)">
+  <rect x="0" y="0" width="10" height="96" fill="url(#brass)"/>
+  <rect x="60" y="0" width="10" height="96" fill="url(#brass)"/>
+  <rect x="-12" y="-16" width="34" height="18" rx="4" fill="url(#brass)"/>
+  <rect x="48" y="-16" width="34" height="18" rx="4" fill="url(#brass)"/>
+  <path d="M-28 -8 h10 v26 h18" fill="none" stroke="url(#brass)" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M92 -8 h-10 v26 h-18" fill="none" stroke="url(#brass)" stroke-width="6" stroke-linejoin="round"/>
+</g>
+
+<!-- bar counter -->
+<path d="M0 474 H900 V600 H0 Z" fill="url(#wood)"/>
+<rect x="0" y="470" width="900" height="16" fill="#9A6C42"/>
+<rect x="0" y="486" width="900" height="4" fill="#000" opacity=".3"/>
+<rect x="0.0" y="490" width="1.6" height="110" fill="#000" opacity="0.05"/><rect x="75.0" y="490" width="1.6" height="110" fill="#000" opacity="0.08"/><rect x="150.0" y="490" width="1.6" height="110" fill="#000" opacity="0.10"/><rect x="225.0" y="490" width="1.6" height="110" fill="#000" opacity="0.12"/><rect x="300.0" y="490" width="1.6" height="110" fill="#000" opacity="0.05"/><rect x="375.0" y="490" width="1.6" height="110" fill="#000" opacity="0.08"/><rect x="450.0" y="490" width="1.6" height="110" fill="#000" opacity="0.10"/><rect x="525.0" y="490" width="1.6" height="110" fill="#000" opacity="0.12"/><rect x="600.0" y="490" width="1.6" height="110" fill="#000" opacity="0.05"/><rect x="675.0" y="490" width="1.6" height="110" fill="#000" opacity="0.08"/><rect x="750.0" y="490" width="1.6" height="110" fill="#000" opacity="0.10"/><rect x="825.0" y="490" width="1.6" height="110" fill="#000" opacity="0.12"/>
+
+<rect width="900" height="600" filter="url(#grain)" opacity=".05"/>
+</svg>

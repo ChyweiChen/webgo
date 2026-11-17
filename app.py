@@ -24,6 +24,12 @@ SHOWCASE_SITES = [
         "name": "Ume Studio",
         "tagline": "A second boutique studio website",
     },
+    {
+        "slug": "the-goblet-pub",
+        "dir": "the_goblet",
+        "name": "The Goblet",
+        "tagline": "A traditional Irish pub website",
+    },
 ]
 
 SITES_BY_SLUG = {site["slug"]: site for site in SHOWCASE_SITES}

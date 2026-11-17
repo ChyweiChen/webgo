@@ -1,0 +1,88 @@
+{
+  "project": "The Goblet pub website",
+  "researched_at": "2026-11-17",
+  "source_link": "https://maps.app.goo.gl/wXJ3o727d3MWyamo8",
+  "status": "research only - site not built yet",
+
+  "verified_from_google_maps": {
+    "name": "The Goblet",
+    "category": "Gastropub",
+    "address": "Malahide Rd, Artane, Dublin 5, Ireland",
+    "address_parts": ["Malahide Rd", "Artane", "Dublin 5", "Ireland"],
+    "phone": "+353 1 832 7311",
+    "phone_link": "tel:+35318327311",
+    "rating": 4.2,
+    "review_count": 1330,
+    "rating_label": "1,330 reviews",
+    "coordinates": { "lat": 53.3803038, "lng": -6.2101406 },
+    "timezone": "Europe/Dublin",
+    "place_id": "ChIJy54JCOgPZ0gRyC8YzNyb6K8",
+    "data_id": "0x48670fe808099ecb:0xafe89bdccc182fc8",
+    "price_per_person": "EUR 10-20",
+    "opening_hours": {
+      "Monday": "10:30 - 23:30",
+      "Tuesday": "10:30 - 23:30",
+      "Wednesday": "10:30 - 23:30",
+      "Thursday": "10:30 - 23:30",
+      "Friday": "10:30 - 00:30",
+      "Saturday": "10:30 - 00:30",
+      "Sunday": "12:30 - 23:00"
+    },
+    "accessibility": [
+      "Wheelchair-accessible entrance",
+      "Wheelchair-accessible car park",
+      "Wheelchair-accessible toilet",
+      "Wheelchair-accessible seating"
+    ],
+    "review_topic_mentions": {
+      "guinness": 85,
+      "carvery": 7,
+      "irish pub": 4,
+      "roast beef": 2,
+      "outdoor seating": 1,
+      "live band": 1
+    },
+    "website_on_google_maps": null,
+    "website_note": "Google Maps shows an 'Add website' action, meaning no website is listed.",
+    "business_claimed": false,
+    "business_claimed_note": "A 'Claim this business' link is present in the Maps data."
+  },
+
+  "third_party_only_not_verified": {
+    "other_platform_ratings": {
+      "Tripadvisor": "3.3-3.5 / 5 across 24-33 reviews (older reviews, many from 2016-2018)",
+      "Facebook": "4.3 / 5, 578 votes (via RestaurantGuru)",
+      "Foursquare": "5.9 / 10, 17 votes (via RestaurantGuru)"
+    },
+    "features_reported_by_directories": [
+      "Outdoor seating", "Live music (weekends / Sunday bands)", "Sports on TV",
+      "Free car park", "Wi-Fi", "Credit/debit cards", "Takeaway", "No delivery",
+      "Reservations", "Good for groups", "Family friendly / high chairs"
+    ],
+    "food_mentioned_in_reviews": [
+      "Sunday carvery / roast beef and turkey", "Cottage pie", "Fish and chips",
+      "Mushrooms with garlic bread", "Guinness", "Smithwick's Red Ale", "Wine", "Coffee"
+    ],
+    "space_layout_note": "Reviews and a Dublin pub guide describe three areas: the front bar, a long lounge, and an upstairs room/function space. Open-plan feel, traditional decor, a large fireplace.",
+    "price_note": "Directories show EUR 10-20 per person; one older source mentions a EUR 50 two-course deal that is no longer available - do not publish any prices without confirmation."
+  },
+
+  "conflicts_and_cautions": {
+    "old_phone": "Tripadvisor lists +353 1 831 1261. Google Maps and current directories list +353 1 832 7311 - use the latter.",
+    "expired_domain": "thegobletpub.com appears in some directories but DNS returns NXDOMAIN (does not resolve). RestaurantGuru's Instagram field literally reads '@expireddomainscom'. Treat as a dead domain - do not link to it.",
+    "hours_variants": "Some directories say 10:00 or 12:00 Sunday opening. Use the Google Maps hours above.",
+    "do_not_invent": ["Eircode", "prices / menu with prices", "email address", "online booking system", "staff names", "awards", "testimonials quoted as if commissioned"],
+    "negative_review_themes": "Dated decor, inconsistent service, unclear allergen information, isolated overcharging complaints. Do not make allergen or accessibility claims beyond the four verified Google Maps accessibility attributes."
+  },
+
+  "opportunity": "No live website and apparently unclaimed Google Business Profile. A new site can own the brand search result, publish verified hours/phone/address, and surface the strongest differentiators (Guinness, Sunday carvery, live music, three distinct spaces, free parking, full wheelchair access).",
+
+  "local_context": "Same Dublin 5 / Artane / Beaumont area as the Ume Nail Studio project (6 Ardscollum Ave). 'The Roundabout' pub at 2 Ardcollum Avenue is about 450 m away and is the closest neighbouring pub.",
+
+  "needed_before_build": [
+    "Real photos (exterior, bar, lounge, upstairs, carvery/food, pint) - originals into assets/photos/",
+    "Confirmation of opening hours, food service times and whether a current menu exists",
+    "Whether the Facebook page should be linked (exact URL not yet found)",
+    "Domain name, if one has been purchased"
+  ]
+}

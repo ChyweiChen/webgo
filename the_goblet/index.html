@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0A1C15">
+<title>The Goblet — A Proper Pint in Artane, Dublin 5</title>
+<meta name="description" content="The Goblet is a traditional Irish pub on Malahide Road, Artane, Dublin 5. Guinness, Sunday carvery, live music, free parking and step-free access. Open 7 days. Call +353 1 832 7311.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_IE">
+<meta property="og:title" content="The Goblet — A Proper Pint in Artane, Dublin 5">
+<meta property="og:description" content="Guinness, Sunday carvery, live music and a warm welcome on Malahide Road, Dublin 5. Open 7 days.">
+<meta property="og:image" content="assets/img/hero-guinness.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="geo.region" content="IE-D">
+<meta name="geo.placename" content="Artane, Dublin 5">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%230A1C15'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-family='Georgia,serif' font-size='40' fill='%23C8A45C'%3EG%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Restaurant",
+  "name":"The Goblet",
+  "description":"Traditional Irish pub and gastropub on Malahide Road, Artane, Dublin 5, serving Guinness, Sunday carvery and pub food.",
+  "servesCuisine":["Irish","Pub food"],
+  "priceRange":"€€",
+  "telephone":"+35318327311",
+  "image":"assets/img/hero-guinness.webp",
+  "address":{"@type":"PostalAddress","streetAddress":"Malahide Road, Artane","addressLocality":"Dublin 5","addressRegion":"Dublin","addressCountry":"IE"},
+  "geo":{"@type":"GeoCoordinates","latitude":53.3803038,"longitude":-6.2101406},
+  "openingHoursSpecification":[
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday"],"opens":"10:30","closes":"23:30"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Friday","Saturday"],"opens":"10:30","closes":"00:30"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"12:30","closes":"23:00"}
+  ],
+  "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.2","reviewCount":"1330","bestRating":"5"},
+  "hasMap":"https://www.google.com/maps/search/?api=1&query=Malahide+Road+Artane+Dublin+5+Ireland"
+}
+</script>
+<style>
+:root{
+  --green-deep:#0A1C15;--green:#123326;--green-2:#1B4432;--green-3:#23593F;
+  --cream:#F6EBD6;--cream-dim:#D9CBB2;--cream-soft:#B9AE98;
+  --brass:#C8A45C;--brass-lt:#E7C888;--wood:#6B452A;--wood-dk:#3A2416;
+  --serif:'Cormorant Garamond',Georgia,serif;--sans:'Jost',Arial,sans-serif;
+  --wrap:1180px;--shadow:0 18px 50px rgba(0,0,0,.34);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--cream);color:var(--green-deep);font-family:var(--sans);font-weight:400;line-height:1.6;overflow-x:hidden}
+img,svg{max-width:100%;height:auto;display:block}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
+::selection{background:var(--brass);color:var(--green-deep)}
+.skip{position:absolute;left:-9999px;top:0;background:var(--brass);color:var(--green-deep);padding:10px 16px;z-index:200}
+.skip:focus{left:8px;top:8px}
+.wrap{width:min(100% - 40px,var(--wrap));margin-inline:auto}
+.eyebrow{font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;color:var(--brass);display:flex;align-items:center;gap:12px;font-weight:500}
+.eyebrow::before{content:"";width:26px;height:1px;background:var(--brass);flex:none}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:600;line-height:1.03;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(2.4rem,9vw,4.4rem)}
+h2 em{font-style:italic;color:var(--brass)}
+p{margin:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:13px 24px;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;border:1px solid var(--brass);transition:background .2s,color .2s,transform .2s}
+.btn svg{width:16px;height:16px;flex:none}
+.btn-gold{background:var(--brass);color:var(--green-deep)}
+.btn-ghost{background:transparent;color:var(--cream);border-color:rgba(246,235,214,.45)}
+.btn-dark{background:var(--green-deep);color:var(--cream);border-color:var(--green-deep)}
+.btn:hover{transform:translateY(-2px)}
+.btn-gold:hover{background:var(--brass-lt)}
+.btn-ghost:hover{background:rgba(246,235,214,.1)}
+.btn-dark:hover{background:var(--green)}
+
+/* ---------- announcement + nav ---------- */
+.announce{background:var(--wood-dk);color:var(--cream-soft);font-size:.62rem;letter-spacing:.11em;text-transform:uppercase;padding:9px 0}
+.announce .wrap{display:flex;flex-wrap:wrap;justify-content:center;gap:3px 12px;text-align:center}
+.announce b{color:var(--brass-lt);font-weight:500}
+.nav{position:sticky;top:0;z-index:70;background:var(--green-deep);border-bottom:1px solid rgba(200,164,92,.22)}
+.nav .wrap{height:68px;display:flex;align-items:center;justify-content:space-between;gap:14px}
+.brand{display:flex;align-items:center;gap:10px;flex:none}
+.brand-icon{width:36px;height:36px;flex:none}
+.brand-txt{display:flex;flex-direction:column;line-height:1}
+.brand-txt b{font-family:var(--serif);font-size:1.34rem;letter-spacing:.1em;font-weight:600;color:var(--cream)}
+.brand-txt small{font-size:.5rem;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);margin-top:5px}
+.nav-links{position:absolute;top:68px;left:0;right:0;background:var(--green-deep);border-bottom:1px solid rgba(200,164,92,.22);display:none;flex-direction:column;padding:6px 20px 18px}
+.nav-links.open{display:flex}
+.nav-links a{font-size:.86rem;color:var(--cream-dim);padding:13px 2px;border-bottom:1px solid rgba(246,235,214,.1);letter-spacing:.05em}
+.nav-links a:last-child{border-bottom:0}
+.nav-links a.active{color:var(--brass)}
+.nav-actions{display:flex;align-items:center;gap:8px;flex:none}
+.nav-actions .btn{min-height:40px;padding:10px 14px;font-size:.62rem}
+.menu-btn{width:44px;height:44px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;background:transparent;border:1px solid rgba(200,164,92,.45)}
+.menu-btn i{display:block;width:19px;height:1px;background:var(--cream);transition:transform .2s,opacity .2s}
+.menu-btn.open i:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.menu-btn.open i:nth-child(2){opacity:0}
+.menu-btn.open i:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+
+/* ---------- hero ---------- */
+.hero{position:relative;overflow:hidden;background:radial-gradient(ellipse at 78% 42%,#1B4432 0%,#0F2B20 42%,var(--green-deep) 78%);color:var(--cream);padding:34px 0 46px}
+.hero::before{content:"";position:absolute;inset:0;background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.018) 0 1px,transparent 1px 64px);pointer-events:none}
+.hero-grid{position:relative;display:grid;grid-template-columns:1fr;gap:10px;align-items:center}
+.hero-kicker{font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);margin-bottom:14px}
+.hero h1{font-size:clamp(2.5rem,10.6vw,4.4rem);line-height:.95}
+.hero h1 em{display:block;font-style:italic;color:var(--brass-lt);font-weight:500}
+.hero-lead{color:var(--cream-dim);font-size:.92rem;max-width:460px;margin:16px 0 20px}
+.hero-btns{display:flex;flex-direction:row;gap:10px}
+.hero-btns .btn{flex:1;padding-inline:10px;font-size:.64rem}
+.hero-proof{display:flex;flex-wrap:wrap;gap:7px 16px;margin-top:20px;padding-top:15px;border-top:1px solid rgba(200,164,92,.25)}
+.hero-proof span{font-size:.7rem;color:var(--cream-soft);letter-spacing:.04em;display:flex;align-items:center;gap:7px}
+.hero-proof strong{color:var(--brass-lt);font-weight:600}
+.hero-proof .stars{color:var(--brass-lt);letter-spacing:.06em}
+.hero-art{position:relative;width:min(80vw,340px);margin:6px auto 0}
+.hero-art picture{display:block;border-radius:170px 170px 4px 4px;overflow:hidden;border:1px solid var(--brass);box-shadow:var(--shadow);background:var(--wood-dk)}
+.hero-art img{width:100%;height:auto;filter:saturate(1.03) contrast(1.02)}
+.lead-full{display:inline}
+.lead-short{display:none}
+.hero-seal{position:absolute;right:-6px;top:-8px;width:82px;height:82px;border-radius:50%;background:var(--green-deep);border:1px solid var(--brass);display:grid;place-items:center;text-align:center;transform:rotate(9deg);box-shadow:var(--shadow)}
+.hero-seal span{display:block;font-family:var(--serif);font-size:.76rem;line-height:1.05;color:var(--brass-lt);letter-spacing:.08em}
+.hero-seal small{display:block;font-size:.44rem;letter-spacing:.14em;color:var(--cream-soft);margin-top:3px}
+
+/* ---------- ticker ---------- */
+.ticker{background:var(--brass);color:var(--green-deep);overflow:hidden;padding:11px 0;border-block:1px solid rgba(0,0,0,.15)}
+.ticker-track{display:flex;width:max-content;animation:slide 38s linear infinite}
+.ticker-track span{font-family:var(--serif);font-size:1.15rem;letter-spacing:.13em;text-transform:uppercase;white-space:nowrap;padding-inline:22px;display:flex;align-items:center;gap:22px}
+.ticker-track span::after{content:"✦";font-family:var(--sans);font-size:.7rem}
+@keyframes slide{to{transform:translateX(-50%)}}
+
+/* ---------- sections ---------- */
+.section{padding:76px 0}
+.section-dark{background:var(--green-deep);color:var(--cream)}
+.section-tint{background:#EDE3D0}
+.sec-head{margin-bottom:36px}
+.sec-head p.lead{color:#5C5344;margin-top:18px;max-width:600px;font-size:1rem}
+.section-dark .sec-head p.lead{color:var(--cream-soft)}
+
+/* the pub */
+.pub-grid{display:grid;grid-template-columns:1fr;gap:36px;align-items:center}
+.pub-art{position:relative;padding:0;isolation:isolate}
+.pub-art img{width:100%;border-radius:3px;box-shadow:var(--shadow);position:relative;z-index:1}
+.pub-art::after{content:"";position:absolute;left:-10px;right:12px;top:-10px;bottom:12px;border:1px solid var(--brass);border-radius:3px;z-index:0}
+.pub-copy h3{font-size:1.9rem;margin-bottom:16px}
+.pub-copy p{color:#5C5344;margin-bottom:14px}
+.pub-quote{margin:26px 0 0;padding:18px 0 18px 22px;border-left:2px solid var(--brass);font-family:var(--serif);font-size:1.5rem;font-style:italic;line-height:1.25}
+.pub-quote small{display:block;font-family:var(--sans);font-style:normal;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:#7A6F5B;margin-top:12px}
+
+/* known-for cards */
+.cards{display:grid;grid-template-columns:1fr;gap:12px;counter-reset:feat}
+.card{position:relative;background:#F7F0E3;border:1px solid rgba(58,36,22,.14);padding:28px 24px 26px;min-height:0;transition:transform .2s,box-shadow .2s}
+.card::before{counter-increment:feat;content:"0" counter(feat);position:absolute;right:20px;top:18px;font-family:var(--serif);font-size:1.3rem;color:var(--brass)}
+.card-ico{width:40px;height:40px;color:var(--wood);margin-bottom:18px}
+.card-ico svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+.card h3{font-size:1.55rem;margin-bottom:8px}
+.card p{color:#625849;font-size:.9rem}
+.section-dark .card{background:var(--green);border-color:rgba(200,164,92,.25)}
+.section-dark .card-ico{color:var(--brass)}
+.section-dark .card p{color:var(--cream-soft)}
+
+/* what's on */
+.on-grid{display:grid;grid-template-columns:1fr;gap:0;border-top:1px solid rgba(200,164,92,.3)}
+.on-row{display:grid;grid-template-columns:1fr;gap:6px;padding:22px 0;border-bottom:1px solid rgba(200,164,92,.3)}
+.on-day{font-family:var(--serif);font-size:1.5rem;color:var(--brass-lt)}
+.on-body h3{font-size:1.3rem;margin-bottom:4px}
+.on-body p{color:var(--cream-soft);font-size:.88rem}
+.on-note{margin-top:24px;font-size:.78rem;color:var(--cream-soft)}
+.on-note b{color:var(--brass-lt);font-weight:500}
+
+/* booking */
+.book-grid{display:grid;grid-template-columns:1fr;gap:34px;align-items:start}
+.book-side h2{font-size:clamp(2.2rem,8.5vw,3.6rem)}
+.book-side p{color:var(--cream-soft);margin-top:16px;max-width:420px}
+.book-call{display:inline-flex;align-items:center;gap:12px;margin-top:26px;padding:16px 20px;border:1px solid var(--brass);color:var(--brass-lt)}
+.book-call small{display:block;font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;color:var(--cream-soft)}
+.book-call b{font-family:var(--serif);font-size:1.5rem;font-weight:500;letter-spacing:.02em}
+.demo-note{background:rgba(200,164,92,.1);border-left:2px solid var(--brass);color:var(--cream-soft);font-size:.76rem;padding:12px 14px;margin-top:22px;line-height:1.5}
+.demo-note b{color:var(--brass-lt)}
+.form-card{background:var(--cream);color:var(--green-deep);padding:26px 20px;box-shadow:var(--shadow)}
+.form-card h3{font-size:1.7rem;margin-bottom:4px}
+.form-sub{font-size:.8rem;color:#6D6353;margin-bottom:22px}
+.form-grid{display:grid;grid-template-columns:1fr;gap:14px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field.full{grid-column:1/-1}
+.field label{font-size:.64rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:#5B5141}
+.field label span{text-transform:none;letter-spacing:0;font-weight:400;color:#8A7F6D}
+.field input,.field select,.field textarea{width:100%;min-height:48px;padding:11px 12px;background:#FFFDF8;border:1px solid rgba(58,36,22,.25);color:var(--green-deep);font-size:16px;border-radius:0;appearance:none;-webkit-appearance:none}
+.field select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M5 8l5 5 5-5' fill='none' stroke='%230A1C15' stroke-width='1.5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center;background-size:16px;padding-right:38px}
+.field textarea{min-height:88px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:0;border-color:var(--wood);box-shadow:0 0 0 2px rgba(107,69,42,.12)}
+.field .err{font-size:.7rem;color:#9A3B2B;display:none}
+.field.invalid .err{display:block}
+.field.invalid input,.field.invalid select{border-color:#9A3B2B}
+.form-card .btn{width:100%;margin-top:20px;border:0;background:var(--green-deep);color:var(--cream)}
+.form-card .btn:hover{background:var(--green)}
+.form-fine{font-size:.68rem;color:#8A7F6D;margin-top:12px;text-align:center}
+.booking-done{display:none;background:var(--cream);color:var(--green-deep);padding:28px 22px;box-shadow:var(--shadow)}
+.booking-done.show{display:block}
+.booking-done h3{font-size:1.8rem;margin-bottom:12px}
+.booking-done p{font-size:.88rem;color:#5B5141;margin-bottom:10px}
+.booking-done .summary{background:#F0E7D6;padding:14px 16px;font-size:.8rem;line-height:1.8;margin:18px 0}
+.booking-done .summary b{color:var(--wood)}
+.booking-done .btn{width:100%;margin-top:8px}
+.booking-done .again{background:none;border:1px solid rgba(58,36,22,.35);color:var(--green-deep);min-height:44px;padding:10px;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;width:100%;margin-top:10px}
+
+/* visit */
+.visit-grid{display:grid;grid-template-columns:1fr;gap:32px}
+.v-block{margin-bottom:26px}
+.v-block h3{font-size:.68rem;font-family:var(--sans);text-transform:uppercase;letter-spacing:.2em;color:var(--wood);margin-bottom:10px}
+.v-block p,.v-block a{font-size:.96rem;color:#4A4235;line-height:1.7}
+.v-block a:hover{color:var(--wood)}
+.hours{display:grid;gap:7px;margin-top:4px}
+.hours div{display:flex;justify-content:space-between;gap:16px;font-size:.86rem;border-bottom:1px dashed rgba(107,69,42,.28);padding-bottom:6px}
+.hours span:first-child{color:#4A4235}
+.hours span:last-child{color:var(--wood);white-space:nowrap;font-weight:500}
+.map-wrap{position:relative;min-height:300px;border:1px solid rgba(200,164,92,.35);background:var(--green)}
+.map-wrap iframe{width:100%;height:100%;min-height:300px;border:0;display:block;filter:grayscale(.35) sepia(.2) contrast(.95)}
+.map-link{display:inline-flex;margin-top:12px;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--brass-lt);border-bottom:1px solid var(--brass);padding-bottom:3px}
+
+/* real photos */
+.photos-strip{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
+.photos-strip figure{margin:0;position:relative;overflow:hidden;border:1px solid rgba(200,164,92,.4);background:var(--wood-dk)}
+.photos-strip img{width:100%;height:180px;object-fit:cover;display:block;filter:saturate(.92) sepia(.08)}
+.photos-strip figcaption{position:absolute;left:0;right:0;bottom:0;padding:16px 10px 9px;font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--cream);background:linear-gradient(transparent,rgba(10,28,21,.88));text-align:center}
+
+/* footer */
+.footer{background:#06130E;color:var(--cream-soft);padding:56px 0 96px;border-top:1px solid rgba(200,164,92,.18)}
+.foot-grid{display:grid;grid-template-columns:1fr;gap:34px}
+.foot-brand p{font-size:.86rem;margin-top:14px;max-width:300px}
+.foot-brand .brand{margin-bottom:6px}
+.foot-col h4{font-family:var(--sans);font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);margin-bottom:14px}
+.foot-col a,.foot-col p{display:block;font-size:.86rem;margin-bottom:9px}
+.foot-col a:hover{color:var(--brass-lt)}
+.foot-bottom{margin-top:40px;padding-top:20px;border-top:1px solid rgba(200,164,92,.16);font-size:.7rem;color:#7F8D83;display:flex;flex-direction:column;gap:6px}
+
+/* sticky call bar */
+.callbar{position:fixed;left:0;right:0;bottom:0;z-index:65;background:var(--brass);color:var(--green-deep);padding:10px 16px calc(10px + env(safe-area-inset-bottom));display:flex;align-items:center;justify-content:space-between;gap:12px;transform:translateY(110%);transition:transform .28s ease;box-shadow:0 -8px 26px rgba(0,0,0,.28)}
+.callbar.show{transform:none}
+.callbar span{font-size:.74rem;letter-spacing:.05em;font-weight:600}
+.callbar small{display:block;font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;font-weight:400;opacity:.75}
+.callbar a{flex:none;background:var(--green-deep);color:var(--cream);padding:11px 16px;font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;font-weight:600}
+
+/* lightbox-free reveal */
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+
+/* ---------- responsive upgrades ---------- */
+@media(max-width:639px){
+  .lead-short{display:inline}
+  .lead-full{display:none}
+  .hero-art{width:min(78vw,310px);margin:8px auto 0}
+  .hero-seal{right:-10px;top:auto;bottom:-6px;width:78px;height:78px}
+}
+@media(min-width:640px){
+  .wrap{width:min(100% - 56px,var(--wrap))}
+  .nav .wrap{height:74px}
+  .nav-links{top:74px}
+  .hero{padding:70px 0 84px}
+  .hero-grid{gap:40px}
+  .hero-btns{flex-direction:row}
+  .hero-btns .btn{width:auto}
+  .hero-art{width:min(50vw,380px);margin-top:0}
+  .section{padding:96px 0}
+  .cards{grid-template-columns:repeat(2,1fr);gap:14px}
+  .form-grid{grid-template-columns:1fr 1fr}
+  .on-row{grid-template-columns:150px 1fr;align-items:baseline;gap:18px}
+  .map-wrap iframe,.map-wrap{min-height:380px}
+}
+@media(min-width:1024px){
+  .wrap{width:min(100% - 80px,var(--wrap))}
+  .announce{text-align:left}
+  .announce .wrap{display:flex;justify-content:space-between;gap:20px}
+  .menu-btn{display:none}
+  .nav-links{position:static;display:flex!important;flex-direction:row;padding:0;border:0;gap:28px;background:none}
+  .nav-links a{border:0;padding:0;font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;position:relative}
+  .nav-links a::after{content:"";position:absolute;left:0;bottom:-7px;width:0;height:1px;background:var(--brass);transition:width .2s}
+  .nav-links a:hover::after,.nav-links a.active::after{width:100%}
+  .hero{padding:96px 0 108px}
+  .hero-grid{grid-template-columns:1.04fr .96fr;gap:60px}
+  .hero h1{font-size:clamp(4rem,6.2vw,6rem)}
+  .hero-lead{font-size:1.1rem;margin:28px 0 34px}
+  .hero-proof{margin-top:44px}
+  .hero-art{width:100%;max-width:400px}
+  .hero-seal{width:100px;height:100px;right:-26px;top:-22px}
+  .hero-seal span{font-size:.9rem}
+  .pub-grid,.book-grid,.visit-grid{grid-template-columns:1fr 1fr}
+  .pub-grid{gap:80px}
+  .pub-art{padding-right:30px}
+  .cards{grid-template-columns:repeat(4,1fr);gap:16px}
+  .card{padding:32px 24px}
+  .book-grid{gap:70px}
+  .form-card,.booking-done{padding:36px 34px}
+  .callbar{display:none}
+  body{padding-bottom:0}
+  .footer{padding:72px 0 34px}
+  .foot-grid{grid-template-columns:1.5fr 1fr 1fr 1fr;gap:40px}
+  .foot-bottom{flex-direction:row;justify-content:space-between}
+}
+@media(max-width:1023px){body{padding-bottom:72px}}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .reveal{opacity:1;transform:none}
+}
+/* touch devices: never leave a hover state stuck on cards */
+@media(hover:none){
+  .card:hover,.btn:hover,.btn-gold:hover,.btn-ghost:hover,.btn-dark:hover{transform:none;background:initial}
+  .btn-gold:hover{background:var(--brass)}
+  .btn-dark:hover{background:var(--green-deep)}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="announce"><div class="wrap"><span>A proper local on Malahide Road, Artane</span><span><b>Open 7 days</b> &nbsp;·&nbsp; Free parking &nbsp;·&nbsp; <a href="tel:+35318327311" style="color:var(--brass-lt)">+353 1 832 7311</a></span></div></div>
+
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="The Goblet, home">
+      <img class="brand-icon" src="assets/img/clover.svg" alt="" width="36" height="36">
+      <span class="brand-txt"><b>THE GOBLET</b><small>Artane · Dublin 5</small></span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#pub">The Pub</a>
+      <a href="#known">Food &amp; Drink</a>
+      <a href="#on">What's On</a>
+      <a href="#visit">Find Us</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-gold" href="#book">Book a table</a>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="hero-kicker">Traditional Irish pub · Malahide Road</p>
+      <h1>A proper pint.<em>A proper welcome.</em></h1>
+      <p class="hero-lead"><span class="lead-short">Guinness, Sunday carvery, live music and a warm welcome in Artane, Dublin 5.</span><span class="lead-full">Guinness poured with care, Sunday carvery, live music and a warm seat in Artane, Dublin 5. Come as you are — stay for the craic.</span></p>
+      <div class="hero-btns">
+        <a class="btn btn-gold" href="#book">Book a table <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-ghost" href="#visit">Find us <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg></a>
+      </div>
+      <div class="hero-proof">
+        <span><span class="stars">★★★★★</span> <strong>4.2</strong> / 1,330 Google reviews</span>
+        <span>Open 7 days</span>
+        <span>Free parking &amp; step-free access</span>
+      </div>
+    </div>
+    <div class="hero-art">
+      <picture>
+        <img src="assets/img/hero-guinness.webp" width="224" height="298" alt="Three freshly poured pints of Guinness with creamy heads, ready on the bar at The Goblet" fetchpriority="high" decoding="async">
+      </picture>
+      <div class="hero-seal" aria-hidden="true"><span>THE GOBLET</span><small>ARTANE · D5</small></div>
+    </div>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true"><div class="ticker-track">
+  <span>A good pint</span><span>Sunday carvery</span><span>Live music</span><span>Great craic</span><span>A warm welcome</span><span>A good pint</span><span>Sunday carvery</span><span>Live music</span><span>Great craic</span><span>A warm welcome</span>
+</div></div>
+
+<section class="section" id="pub">
+  <div class="wrap pub-grid">
+    <div class="pub-art reveal"><img src="assets/img/pub-interior.svg" width="900" height="600" loading="lazy" decoding="async" alt="Illustration of The Goblet's warm traditional interior with an open fire, wooden bar and brass taps"></div>
+    <div class="pub-copy reveal">
+      <p class="eyebrow">Since the first pint</p>
+      <h2>A proper <em>local</em>.</h2>
+      <h3>Old-fashioned in all the right ways.</h3>
+      <p>The Goblet is the kind of pub you can settle into. Three spaces to choose from — the front bar for a quick one, a long, cosy lounge for a proper sit-down, and an upstairs room when the night calls for a bit more room.</p>
+      <p>There's a big fire, traditional wood and brass throughout, and a welcome that doesn't depend on whether you're a regular. Yet. Step-free access throughout and a wheelchair-accessible car park mean everyone can join in.</p>
+      <blockquote class="pub-quote">"A really nice spot, worth the trip."<small>Based on Google reviews</small></blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tint" id="known">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Why people come back</p>
+      <h2>Known for the <em>good stuff</em>.</h2>
+      <p class="lead">No gimmicks. Just the things a proper Irish pub should do well — done well.</p>
+    </div>
+    <div class="cards">
+      <article class="card reveal"><div class="card-ico"><svg viewBox="0 0 48 48"><path d="M12 15h22l-2 26H14L12 15Z"/><path d="M12 15c0-5 4-7 8-6 3-3 8-2 9 2 4-1 6 2 5 5"/><path d="M18 24v11M28 24v11"/><path d="M34 20c6 0 7 9 0 10"/></svg></div><h3>A proper Guinness</h3><p>The pint people talk about. Pulled carefully, poured with a good head, and worth coming back for.</p></article>
+      <article class="card reveal"><div class="card-ico"><svg viewBox="0 0 48 48"><path d="M5 22h38c0 12-8 18-19 18S5 34 5 22Z"/><path d="M2 22h44"/><path d="M14 18c0-5 5-6 7-2 2-3 8-2 8 2"/><path d="M12 44h24"/></svg></div><h3>Sunday carvery</h3><p>Roast beef, turkey and all the trimmings. Generous plates and the kind of lunch that sends you home happy.</p></article>
+      <article class="card reveal"><div class="card-ico"><svg viewBox="0 0 48 48"><path d="M18 34V10l20-4v24"/><circle cx="13" cy="35" r="5"/><circle cx="33" cy="31" r="5"/><path d="M18 16l20-4"/></svg></div><h3>Live music</h3><p>Bands and a bit of craic, especially at weekends. Ask in the pub for who's playing this week.</p></article>
+      <article class="card reveal"><div class="card-ico"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="18"/><circle cx="24" cy="24" r="8"/><path d="M24 6v10M24 32v10M6 24h10M32 24h10"/><circle cx="24" cy="24" r="1.6"/></svg></div><h3>Room for everyone</h3><p>Free parking, outdoor seating, screens for the match, and full wheelchair access to every part of the pub.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark" id="on">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">The weekly rhythm</p>
+      <h2>Something on, <em>every day</em>.</h2>
+    </div>
+    <div class="on-grid reveal">
+      <div class="on-row"><div class="on-day">Sunday</div><div class="on-body"><h3>Carvery lunch</h3><p>Roasts, proper gravy and a seat waiting with your name on it. Our busiest table of the week.</p></div></div>
+      <div class="on-row"><div class="on-day">Fri – Sat</div><div class="on-body"><h3>Live music &amp; late nights</h3><p>Open until 12:30am, with live bands and a lively crowd. The upstairs room comes into its own.</p></div></div>
+      <div class="on-row"><div class="on-day">Every day</div><div class="on-body"><h3>Pints, food &amp; the match</h3><p>Pub food served daily, Guinness on tap and screens for the big games. Outdoor seating when the weather behaves.</p></div></div>
+    </div>
+    <p class="on-note"><b>Good to know:</b> Lineups and food service times change — give us a call on <a href="tel:+35318327311" style="color:var(--brass-lt)">+353 1 832 7311</a> to check what's on.</p>
+  </div>
+</section>
+
+<section class="section section-dark" id="book">
+  <div class="wrap book-grid">
+    <div class="book-side reveal">
+      <p class="eyebrow">Reserve a table</p>
+      <h2>Come on in.<em>We'll save you a seat.</em></h2>
+      <p>Booking a table for lunch, the Sunday carvery or a night out with friends? Tell us when and how many, and we'll take care of the rest.</p>
+      <a class="book-call" href="tel:+35318327311"><div><small>Prefer to talk?</small><b>+353 1 832 7311</b></div></a>
+      <p class="demo-note"><b>Demo form:</b> this booking form is a preview only — submitting it does <b>not</b> send a request or reserve a table. To book for real, please call us on <b>+353 1 832 7311</b>.</p>
+    </div>
+    <div class="reveal">
+      <form class="form-card" id="bookingForm" novalidate>
+        <h3>Book a table</h3>
+        <p class="form-sub">Fill in the details below — all fields marked * are required.</p>
+        <div class="form-grid">
+          <div class="field"><label for="bkDate">Date *</label><input id="bkDate" name="date" type="date" required><span class="err">Please choose a date.</span></div>
+          <div class="field"><label for="bkTime">Time *</label><select id="bkTime" name="time" required>
+            <option value="">Choose a time</option>
+            <option>12:30</option><option>13:00</option><option>13:30</option><option>14:00</option><option>14:30</option>
+            <option>15:00</option><option>15:30</option><option>16:00</option><option>17:00</option><option>18:00</option>
+            <option>18:30</option><option>19:00</option><option>19:30</option><option>20:00</option><option>20:30</option>
+            <option>21:00</option><option>21:30</option><option>22:00</option><option>22:30</option>
+          </select><span class="err">Please choose a time.</span></div>
+          <div class="field"><label for="bkParty">Party size *</label><select id="bkParty" name="party" required>
+            <option value="">Choose a number</option><option>1</option><option>2</option><option>3</option><option>4</option>
+            <option>5</option><option>6</option><option>7</option><option>8</option><option>8+</option>
+          </select><span class="err">Please choose a party size.</span></div>
+          <div class="field"><label for="bkName">Your name *</label><input id="bkName" name="name" type="text" autocomplete="name" placeholder="e.g. Mary Murphy" required><span class="err">Please enter your name.</span></div>
+          <div class="field"><label for="bkPhone">Phone *</label><input id="bkPhone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+353 8x xxx xxxx" required><span class="err">Please enter a phone number.</span></div>
+          <div class="field full"><label for="bkEmail">Email <span>(optional)</span></label><input id="bkEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com"></div>
+          <div class="field full"><label for="bkNotes">Anything we should know? <span>(optional)</span></label><textarea id="bkNotes" name="notes" placeholder="High chair, accessible seating, a special occasion..."></textarea></div>
+        </div>
+        <button class="btn btn-dark" type="submit">Request a table</button>
+        <p class="form-fine">Demo only — nothing is sent. Call +353 1 832 7311 to reserve.</p>
+      </form>
+      <div class="booking-done" id="bookingDone" role="status" aria-live="polite">
+        <h3>Thanks, <span id="doneName">friend</span>!</h3>
+        <p>Here's what you entered:</p>
+        <div class="summary" id="doneSummary"></div>
+        <p><strong>This is a demo — no reservation was sent and no table has been booked.</strong> Please call <a href="tel:+35318327311" style="color:var(--wood);text-decoration:underline">+353 1 832 7311</a> to book for real.</p>
+        <button class="again" id="bookAgain" type="button">Enter another booking</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tint" id="visit">
+  <div class="wrap visit-grid">
+    <div class="reveal">
+      <p class="eyebrow">Come and find us</p>
+      <h2>Right here in <em>Artane</em>.</h2>
+      <div class="v-block" style="margin-top:28px"><h3>Address</h3><p>The Goblet<br>Malahide Road, Artane<br>Dublin 5, Ireland</p></div>
+      <div class="v-block"><h3>Opening hours</h3><div class="hours">
+        <div><span>Monday – Thursday</span><span>10:30 – 23:30</span></div>
+        <div><span>Friday – Saturday</span><span>10:30 – 00:30</span></div>
+        <div><span>Sunday</span><span>12:30 – 23:00</span></div>
+      </div></div>
+      <div class="v-block"><h3>Call us</h3><p><a href="tel:+35318327311">+353 1 832 7311</a><br><span style="font-size:.82rem;color:#6D6353">For bookings, food service times and what's on.</span></p></div>
+      <div class="v-block"><h3>Getting here</h3><p>Free parking on site. Step-free entrance, accessible seating, toilet and car park. Just off the Malahide Road, past the turn for Artane Shopping Centre.</p></div>
+    </div>
+    <div class="reveal">
+      <div class="photos-strip">
+        <figure><img src="assets/img/pub-front.webp" width="224" height="197" loading="lazy" decoding="async" alt="The front of The Goblet pub on Malahide Road, Artane"><figcaption>Look for us on Malahide Road</figcaption></figure>
+        <figure><img src="assets/img/beer-pints.webp" width="224" height="298" loading="lazy" decoding="async" alt="Cold pints of beer served at The Goblet"><figcaption>A cold one, waiting for you</figcaption></figure>
+      </div>
+      <div class="map-wrap">
+        <iframe title="Map showing The Goblet on Malahide Road, Artane, Dublin 5" src="https://www.google.com/maps?q=Malahide%20Road%2C%20Artane%2C%20Dublin%205%2C%20Ireland&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=53.3803038%2C-6.2101406" target="_blank" rel="noopener">Get directions ↗</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <a class="brand" href="#top"><img class="brand-icon" src="assets/img/clover.svg" alt="" width="36" height="36"><span class="brand-txt"><b>THE GOBLET</b><small>Artane · Dublin 5</small></span></a>
+      <p>A traditional Irish pub on Malahide Road. Good pints, honest food and a welcome worth coming back for.</p>
+    </div>
+    <div class="foot-col"><h4>Explore</h4><a href="#pub">The Pub</a><a href="#known">Food &amp; Drink</a><a href="#on">What's On</a><a href="#book">Book a Table</a></div>
+    <div class="foot-col"><h4>Visit</h4><p>Malahide Road, Artane<br>Dublin 5, Ireland</p><p>Mon – Thu 10:30 – 23:30<br>Fri – Sat 10:30 – 00:30<br>Sun 12:30 – 23:00</p></div>
+    <div class="foot-col"><h4>Get in touch</h4><p><a href="tel:+35318327311">+353 1 832 7311</a></p><p>Free parking<br>Step-free access<br>Open 7 days</p></div>
+  </div>
+  <div class="wrap foot-bottom"><span>© 2026 The Goblet. All rights reserved.</span><span>Malahide Road, Artane, Dublin 5, Ireland</span></div>
+</footer>
+
+<div class="callbar" id="callbar">
+  <span>Planning a visit?<small>Book a table or give us a call</small></span>
+  <a href="tel:+35318327311">Call to book</a>
+</div>
+
+<script>
+(function(){
+  'use strict';
+  var nav=document.getElementById('nav'), links=document.getElementById('navLinks'),
+      menuBtn=document.getElementById('menuBtn'), callbar=document.getElementById('callbar');
+
+  function closeMenu(){links.classList.remove('open');menuBtn.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');menuBtn.setAttribute('aria-label','Open menu');}
+  menuBtn.addEventListener('click',function(){
+    var open=links.classList.toggle('open');
+    menuBtn.classList.toggle('open',open);
+    menuBtn.setAttribute('aria-expanded',String(open));
+    menuBtn.setAttribute('aria-label',open?'Close menu':'Open menu');
+  });
+  links.querySelectorAll('a').forEach(function(a){a.addEventListener('click',closeMenu);});
+  document.addEventListener('click',function(e){if(links.classList.contains('open')&&!nav.contains(e.target))closeMenu();});
+  addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();});
+
+  addEventListener('scroll',function(){
+    nav.classList.toggle('scrolled',scrollY>30);
+    callbar.classList.toggle('show',scrollY>600);
+  },{passive:true});
+
+  // active nav highlighting
+  var secs=['pub','known','on','visit'].map(function(id){return document.getElementById(id);});
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          links.querySelectorAll('a').forEach(function(a){a.classList.toggle('active',a.getAttribute('href')==='#'+en.target.id);});
+        }
+      });
+    },{rootMargin:'-35% 0px -55% 0px'});
+    secs.forEach(function(s){if(s)io.observe(s);});
+  }
+
+  // reveal on scroll
+  var revs=document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    var ro=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');ro.unobserve(e.target);}});},{threshold:.12});
+    revs.forEach(function(el){ro.observe(el);});
+  }else{revs.forEach(function(el){el.classList.add('in');});}
+
+  // --- demo booking form ---
+  var form=document.getElementById('bookingForm'), done=document.getElementById('bookingDone'),
+      dateEl=document.getElementById('bkDate');
+  var today=new Date();
+  var iso=new Date(today.getTime()-today.getTimezoneOffset()*60000).toISOString().slice(0,10);
+  dateEl.min=iso;
+
+  function fieldOf(el){return el.closest('.field');}
+  function validate(){
+    var ok=true;
+    ['bkDate','bkTime','bkParty','bkName','bkPhone'].forEach(function(id){
+      var el=document.getElementById(id), f=fieldOf(el), bad=!el.value.trim();
+      if(!bad&&el.type==='date'&&el.value<iso)bad=true;
+      f.classList.toggle('invalid',bad);
+      if(bad)ok=false;
+    });
+    var email=document.getElementById('bkEmail');
+    if(email.value&&!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)){
+      fieldOf(email).classList.add('invalid');ok=false;
+    }
+    return ok;
+  }
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(!validate()){
+      var first=form.querySelector('.field.invalid input,.field.invalid select');
+      if(first)first.focus();
+      return;
+    }
+    var v=function(id){return document.getElementById(id).value.trim();};
+    document.getElementById('doneName').textContent=v('bkName').split(' ')[0];
+    var rows=[['Date',v('bkDate')],['Time',v('bkTime')],['Party',v('bkParty')+' '+(v('bkParty')==='1'?'person':'people')],
+              ['Name',v('bkName')],['Phone',v('bkPhone')]];
+    if(v('bkEmail'))rows.push(['Email',v('bkEmail')]);
+    if(v('bkNotes'))rows.push(['Notes',v('bkNotes')]);
+    document.getElementById('doneSummary').innerHTML=rows.map(function(r){
+      return '<div><b>'+r[0]+':</b> '+r[1].replace(/[<>&]/g,function(c){return {'<':'&lt;','>':'&gt;','&':'&amp;'}[c];})+'</div>';
+    }).join('');
+    form.style.display='none';
+    done.classList.add('show');
+    done.scrollIntoView({behavior:'smooth',block:'center'});
+  });
+  document.getElementById('bookAgain').addEventListener('click',function(){
+    done.classList.remove('show');form.reset();form.style.display='block';
+    form.querySelectorAll('.field').forEach(function(f){f.classList.remove('invalid');});
+    dateEl.min=iso;dateEl.focus();
+  });
+  form.querySelectorAll('input,select').forEach(function(el){
+    el.addEventListener('input',function(){fieldOf(el).classList.remove('invalid');});
+  });
+})();
+</script>
+</body>
+</html>

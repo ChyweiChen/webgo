@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img" aria-label="Three leaf clover">
+
+  <g transform="translate(40 28) scale(1.55)" opacity="1" fill="#C8A45C">
+    <circle cx="-9" cy="-6" r="9"/><circle cx="9" cy="-6" r="9"/>
+    <circle cx="0" cy="8" r="9"/>
+    <path d="M0 12 C1 24 5 30 9 34" fill="none" stroke="#C8A45C" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

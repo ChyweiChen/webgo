@@ -1,0 +1,59 @@
+{
+  "name": "Pipers Corner",
+  "type": ["Irish pub", "Bar", "Live music venue"],
+  "tagline_facts": "A lively traditional Irish pub on Marlborough St, Dublin 1, known for live traditional music sessions, craft beers and a proper pint of stout.",
+  "address": {
+    "street": "105-106 Marlborough St",
+    "area": "North City",
+    "city": "Dublin",
+    "postcode": "D01 FD28",
+    "country": "Ireland",
+    "full": "105-106 Marlborough St, North City, Dublin, D01 FD28, Ireland"
+  },
+  "plus_code": "8PXR+JR Dublin, Ireland",
+  "geo": { "latitude": 53.349017811606366, "longitude": -6.258061539885431 },
+  "phone": "+353 85 168 3195",
+  "phone_digits": "+353851683195",
+  "rating": 4.5,
+  "review_count": 1161,
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "16:00–23:30",
+    "Wednesday": "16:00–23:30",
+    "Thursday": "16:00–23:30",
+    "Friday": "16:00–00:30",
+    "Saturday": "16:00–00:30",
+    "Sunday": "16:00–23:00"
+  },
+  "highlights_from_reviews": {
+    "trad music": 63,
+    "traditional music": 25,
+    "live music": 62,
+    "musicians": 25,
+    "pints": 34,
+    "craft beers": 16,
+    "gluten free beer": 3,
+    "cheese toastie": 9,
+    "pints of stout": 2
+  },
+  "accessibility": {
+    "wheelchair_accessible_entrance": true,
+    "wheelchair_accessible_seating": true,
+    "wheelchair_accessible_parking": false
+  },
+  "service_options": ["Dine-in", "Live music", "Craft beer selection", "Gluten-free beer"],
+  "atmosphere": ["casual", "cosy", "traditional", "lively"],
+  "reviews_excerpt": [
+    "What a great place to gather, off the beaten path. The music is outstanding! The bar is cozy and standing room only on this Friday night but worth every bit to hear traditional Irish music.",
+    "Really enjoyed this pub. Live music from 9pm and they're bloody fantastic. Musicians had the whole bar smiling. Pint of guinness was decent as well and a good selection of other drinks.",
+    "If you want a breezy modern pub, with traditional Irish live music and a solid pint look no further. We came for live music and we were not at all disappointed.",
+    "Came here on a Saturday night and heard an awesome ensemble of musicians playing traditional Irish music. The bar also serves a nice selection of draft beers and whiskeys."
+  ],
+  "website_status": "Maps shows 'Add website' — no official website listed. Strong case for a new site.",
+  "source": {
+    "maps_url": "https://www.google.com/maps/place/Pipers+Corner/data=!4m2!3m1!1s0x48670e85b0315001:0x54667ef8433798b2",
+    "place_id": "0x48670e85b0315001:0x54667ef8433798b2",
+    "verified_via": "Google Maps preview/place endpoint + WebSearch cross-check (wanderlog, nears.me)",
+    "verified_on": "2026-11-18"
+  }
+}

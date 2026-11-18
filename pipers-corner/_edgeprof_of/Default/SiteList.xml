@@ -1,0 +1,631 @@
+<?xml version="1.0"?>
+<site-list version="68">
+ <site url="10.124.177.70/helpdesk">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="10.124.177.71/watt">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="10.176.225.153/cgi-bin/common/login/weblogin">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="10.181.203.17:8081/demprd_us/portal/loginpage.jsp">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="10.181.203.71:7004/demqa_us/portal/loginpage.jsp">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="10.181.207.17:8081/demprd_us/portal/loginpage.jsp">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="2020vision.apps.carrier.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="216.115.162.226">
+  <compat-mode>IE7Enterprise</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="acsap-it.com">
+  <compat-mode>IE7Enterprise</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="alm.ccs.utc.com/qcbin/start_a.jsp">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="alm.deloitte.com/qcbin">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="alm.deloitte.com/qcbin/start_a.jsp">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="ap92.carcgl.com:7777/jde/e1menu.maf">
+  <compat-mode>IE11</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="aspneo1.smfl.co.jp">
+  <compat-mode>IE7Enterprise</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="aspneo2.smfl.co.jp">
+  <compat-mode>IE7Enterprise</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="aspneo3.smfl.co.jp">
+  <compat-mode>IE7Enterprise</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="carrier.lvcloud.com/carrierledpprod">
+  <compat-mode>IE8Enterprise</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="carrier.lvcloud.com/carrierprovprod">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="carrier.lvcloud.com/carrierrestprodlv">
+  <compat-mode>IE8Enterprise</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="carrierqa.lvcloud.com/carrierprovqalv">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cczbea08.carcgl.com/watt">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="certauth.tico-g-adfs.toyota-shokki.co.jp">
+  <compat-mode>Default</compat-mode>
+  <open-in>IE11</open-in>
+ </site>
+ <site url="cfrmoa11.carcgl.com:81/sfd/sfd.client.xbap">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya2t/vdocopenweb/asp/navigation.asp">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya2t/vdocopenweb/desktop/asp/desktop.asp">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya4i">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya4i/appmanager/coral/login">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya4i/appmanager/coral/sapphire">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya4i/appmanager/touchscreen/menu">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya4i/appmanager/troubleshooter/managetroubleshooters">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya4i/earl/servlet">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya4i/efacs/english/applications_html">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya4i/efacs/english/html/htmclauncher.htm">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya4i/efacs/english/infopanels_html">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya4i/sapphire/bothcprun.jnlp">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya4i/sapphire/bothrccprun.jnlp">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya4i/sapphire/changepasswordapplication.jnlp">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya4i/sapphire/fieldserviceplanningboard.jnlp">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya4i/sapphire/finiterccprun.jnlp">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya4i/sapphire/infinitecprun.jnlp">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya4i/sapphire/infiniterccprun.jnlp">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya4i/sapphire/infiniteschedulecprun.jnlp">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya4i/sapphire/productionplanningboard.jnlp">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cfrrya5k.chubbfsad.com/docuware/platform/webclient/ntlm">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cgbbba0b.chubbfsad.com/ignite">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cgbbba0c.chubbfsad.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cirius-ext.toyota-shokki.co.jp">
+  <compat-mode>Default</compat-mode>
+  <open-in>IE11</open-in>
+ </site>
+ <site url="compass-ext.toyota-shokki.co.jp">
+  <compat-mode>Default</compat-mode>
+  <open-in>IE11</open-in>
+ </site>
+ <site url="cop-pm.eu.carrier.utc.com/projekte/projekte/forms/*">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cop-pm.eu.carrier.utc.com/projekte/projekte/forms/projekt%20schritt%203/docsethomepage.aspx">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cop-pm.eu.carrier.utc.com/projekte/projekte/forms/projekt%20schritt%203/docsethomepage.aspx*">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cop-pm.eu.carrier.utc.com/projekte/projekte/forms/projektliste%20aktuell.aspx">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusaga0d">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusaga0d/wfc">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusaga0d/wfc/applications/suitenav/navigation.do">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusaga0d/wfc/logon">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusaga0d.carcgl.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusaga0d.carcgl.com/wfc">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusaga0d.carcgl.com/wfc/applications/suitenav/navigation.do">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusaga0d.carcgl.com/wfc/logon">
+  <compat-mode>IE8Enterprise</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusaga0d.carrier.utc.com/wfc/logon">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="cusiia0y:8080/aptweb/home.jsf">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusiia0z:8080/aptweb/home.jsf">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusiia2c/mes/stationclient/mes.client.xbap">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusiia2j/mes/stationclient/mes.client.xbap">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusiia2n/mes/stationclient/mes.client.xbap">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusiia4c/mes/stationclient/mes.client.xbap">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusiia4c.carcgl.com/mes/stationclient/mes.client.xbap">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusiia4j/mes/stationclient/mes.client.xbap">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusiia4j.carcgl.com/mes/stationclient/mes.client.xbap">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusiia4n/mes/stationclient/mes.client.xbap">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusiia4n.carcgl.com/mes/stationclient/mes.client.xbap">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusiisfd/sfd/sfd.client.xbap">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusiiw0r/tmsclient">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusiiw0r.carrier.utc.com/tmsclient">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cusnww1k.carcgl.com/bp/project/project%20center%20pages/time.aspx">
+  <compat-mode>IE7Enterprise</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cussxa05/niceapplications/desktop/webpage/desktopwebform.aspx">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cussya3j.carcgl.com:8085/idp">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cussya3j.carcgl.com:8085/idp/login">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="cussya4x.carcgl.com:8011/npsdev1.web/npshostpage.aspx">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="e-platext01.toyota-shokki.co.jp">
+  <compat-mode>Default</compat-mode>
+  <open-in>IE11</open-in>
+ </site>
+ <site url="e-shokki-apply.toyota-shokki.co.jp">
+  <compat-mode>Default</compat-mode>
+  <open-in>IE11</open-in>
+ </site>
+ <site url="e-shokki-portal.toyota-shokki.co.jp">
+  <compat-mode>IE7</compat-mode>
+  <open-in>IE11</open-in>
+ </site>
+ <site url="e-shokki-portal.toyota-shokki.co.jp/lfbpm.info.toyota-shokki.co.jp:18074">
+  <compat-mode>Default</compat-mode>
+  <open-in>IE11</open-in>
+ </site>
+ <site url="e-shokki-portal.toyota-shokki.co.jp/lfbpm.info.toyota-shokki.co.jp:18080">
+  <compat-mode>Default</compat-mode>
+  <open-in>IE11</open-in>
+ </site>
+ <site url="edesk.bli.gov.tw/cpa/logout.do">
+  <compat-mode>IE8Enterprise</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="erp.chigo-cac.com:8000">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="eservice.nhi.gov.tw/nhiweb1/system/loginca.aspx">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="examportal.ebara.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="fsm-astea.carcgl.com/asteapublisher140">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="genrp.toyota-shokki.co.jp">
+  <compat-mode>Default</compat-mode>
+  <open-in>IE11</open-in>
+ </site>
+ <site url="hwk.rewe-group.com/sap/bc/webdynpro/sap/zmm1_hwk">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="intranet.automatedlogic.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="isales25au">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="kfrcea03/vdocopenweb/asp/navigation.asp">
+  <compat-mode>IE8Enterprise</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="khkklw01/eleave">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="kussxa02:7001/wfo/control/people_profile_fs">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="lxgl.cccf.com.cn/system/loginaction.do">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="monpatsu-ext.toyota-shokki.co.jp">
+  <compat-mode>Default</compat-mode>
+  <open-in>IE11</open-in>
+ </site>
+ <site url="msdbp.carrier.utc.com">
+  <compat-mode>IE7Enterprise</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="msdbp.carrier.utc.com/bp/business%20portal%20common%20pages/home.aspx">
+  <compat-mode>IE5</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="msdbp.carrier.utc.com/bp/project/project%20center%20pages/time.aspx">
+  <compat-mode>IE7Enterprise</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="my.secokaelte.de/m/cr/benutzer/login">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="negopecds.mprc.kioxia.com">
+  <compat-mode>IE8Enterprise</compat-mode>
+  <open-in>IE11</open-in>
+ </site>
+ <site url="norescoerp.carcgl.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="norescoerp.carcgl.com/ibmcognos/cgi-bin/cognosisapi.dll">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="norescoerp.carcgl.com/ibmcognos/contributor/en/planning64.htm">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="ntp.carrefour.com.tw/apcpu">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="ntp.carrefour.com.tw/apcpu/main/index">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="oashprodparcel1.carcgl.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="oashprodparcel1.carcgl.com/login/login.php">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="oashprodparcel1.carcgl.com/ship/warehouse/warehouse.php">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="oci-apsgdev-int-dev.1utcfs.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="oci-apsprj2-int-dev.carcgl.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="oci-apsprod-int.carcgl.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="oci-apsqait-int-qa.carcgl.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="oci-apsqapt-int-qa.carcgl.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="oci-apssit-int-upg.carcgl.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="oci-gdev-int-dev.carcgl.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="oci-prj1-int-dev.carcgl.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="oci-prod-int.carcgl.com">
+  <compat-mode>IE11</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="oci-qait-int-qa.carcgl.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="oci-qapt-int-qa.carcgl.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="oci-sit-int-upg.carcgl.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="oci-upgpoc-int-dev.carcgl.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">MSEdge</open-in>
+ </site>
+ <site url="ophxqaparcel2.carcgl.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="ophxqaparcel2.carcgl.com/login/login.php">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="payczar-test.apps.carrier.com">
+  <compat-mode>IE8Enterprise</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="payczar.apps.carrier.com">
+  <compat-mode>IE8Enterprise</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="plf-ext.toyota-shokki.co.jp">
+  <compat-mode>Default</compat-mode>
+  <open-in>IE11</open-in>
+ </site>
+ <site url="pop-ext.toyota-shokki.co.jp">
+  <compat-mode>Default</compat-mode>
+  <open-in>IE11</open-in>
+ </site>
+ <site url="qc.ccs.utc.com/qcbin/start_a.jsp">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="rcsbi.apps.carrier.com/*">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="remote.apps.carrier.com/rdweb/pages/en-us/default.aspx/hvac-bnl">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="remote.apps.carrier.com/rdweb/pages/en-us/login.aspx">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="scope-ext.toyota-shokki.co.jp">
+  <compat-mode>Default</compat-mode>
+  <open-in>IE11</open-in>
+ </site>
+ <site url="sp.carcgl.com:7777/jde/e1menu.maf">
+  <compat-mode>IE11</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="spiv1901">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="spiv1901/*">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="spiv1901.carcgl.com">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="spiv1901.carcgl.com/*">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="tico-estimate.toyota-shokki.co.jp">
+  <compat-mode>Default</compat-mode>
+  <open-in>IE11</open-in>
+ </site>
+ <site url="tico-g-adfs.toyota-shokki.co.jp">
+  <compat-mode>Default</compat-mode>
+  <open-in>IE11</open-in>
+ </site>
+ <site url="utcdart-commercial.acsap-it.com">
+  <compat-mode>IE7Enterprise</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="utcdart-commercial.acsap-it.com/*">
+  <compat-mode>IE7Enterprise</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="utcdart-commercial.acsap-it.com/utcdartcomm/login.aspx">
+  <compat-mode>IE7Enterprise</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="wwwpec.mprc.kioxia.com">
+  <compat-mode>IE8Enterprise</compat-mode>
+  <open-in>IE11</open-in>
+ </site>
+ <site url="zwfw.safe.gov.cn">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="zwfw.safe.gov.cn/asone/servlet">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="zwfw.safe.gov.cn/asone/servlet/loginoutservlet">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="http://cs-seven.gcsjapan.com/csseven_tts">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="http://cs-seven.gcsjapan.com/csseven_tts/login.aspx">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="http://cs-seven.gcsjapan.com/csseven_tts/logtimeout.aspx">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="http://cs-seven.gcsjapan.com/csseven_tts/pages/fileexport.aspx">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="http://cs-seven.gcsjapan.com/csseven_tts/pages/frmhinapprove.aspx">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+ <site url="http://cs-seven.gcsjapan.com/csseven_tts/pages/frmjobreg.aspx">
+  <compat-mode>Default</compat-mode>
+  <open-in>IE11</open-in>
+ </site>
+ <site url="http://cs-seven.gcsjapan.com/csseven_tts/pages/frmreceiptinfo.aspx">
+  <compat-mode>Default</compat-mode>
+  <open-in allow-redirect="true">IE11</open-in>
+ </site>
+</site-list>

@@ -30,6 +30,12 @@ SHOWCASE_SITES = [
         "name": "The Goblet",
         "tagline": "A traditional Irish pub website",
     },
+    {
+        "slug": "pipers-corner",
+        "dir": "pipers-corner",
+        "name": "Pipers Corner",
+        "tagline": "A live music Irish pub website",
+    },
 ]
 
 SITES_BY_SLUG = {site["slug"]: site for site in SHOWCASE_SITES}

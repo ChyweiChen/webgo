@@ -8,3 +8,7 @@ env/
 # Local, host-specific environment settings (do not commit)
 .env
 docker-compose.override.yml
+
+# Stray browser profile data accidentally dropped into site folders
+_edgeprof_of/
+**/_edgeprof_of/

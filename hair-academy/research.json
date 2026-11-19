@@ -1,0 +1,64 @@
+{
+  "name": "Hair Academy@D7",
+  "tagline": "Experts in Colour",
+  "category": "Hair salon",
+  "source": "Google Maps place 0x48670dcd2c40ae5f:0x2449746286077d33 + review text",
+  "verified_date": "2026-11-19",
+  "address": {
+    "line1": "64/65 Prussia Street, 66 Prussia St",
+    "area": "Stoneybatter",
+    "city": "Dublin 7",
+    "postcode": "D07 VK72",
+    "country": "Ireland",
+    "full": "Hair Academy@D7, 64/65 Prussia Street, 66 Prussia St, Stoneybatter, Dublin 7, D07 VK72, Ireland"
+  },
+  "coordinates": { "lat": 53.3550799, "lng": -6.2874732 },
+  "phone": "+353 1 868 0884",
+  "phone_local": "01 868 0884",
+  "rating": 4.7,
+  "review_count": 46,
+  "website": null,
+  "website_note": "Google Maps shows 'Add website' — no official website, strong reason to build one",
+  "opening_hours": {
+    "Monday": "Closed",
+    "Tuesday": "09:00–17:30",
+    "Wednesday": "09:00–17:30",
+    "Thursday": "09:00–19:30",
+    "Friday": "09:00–17:30",
+    "Saturday": "08:30–16:00",
+    "Sunday": "Closed"
+  },
+  "services": [
+    "Balayage",
+    "Hair colouring & highlights",
+    "Hair hydration treatments",
+    "Hair straightening",
+    "Cut & blow-dry",
+    "Curly hair specialist",
+    "Kids' cuts"
+  ],
+  "review_keywords": [
+    "lovely staff", "friendly staff", "colour", "haircut", "blowdry",
+    "balayage", "curly hair", "thick hair", "great value", "made me feel at ease"
+  ],
+  "stylists_mentioned": ["Leanne", "Sharon"],
+  "review_highlights": [
+    "Delighted with my hair and the new colour is super. The girls are sooooo lovely too.",
+    "100% recommend the wash and blowdry here — Leanne worked wonders on my dense, frizzy hair, perfectly straight and shiny.",
+    "Best blowdry in Dublin hands down! Great chat & zippy service.",
+    "An amazing cut by Leanne. Great customer service from Sharon and Leanne — made me feel at ease. Great value for money."
+  ],
+  "accessibility": ["Wheelchair accessible entrance"],
+  "branding": {
+    "signature_colour": "Hot pink / fuchsia (storefront, interior accents)",
+    "signage": "HAIR ACADEMY — Experts in Colour; OPEN light sign; appointments 01 868 0884",
+    "interior": "Pink feature wall, floral wallpaper, modern styling chairs, bright front windows"
+  },
+  "photos": [
+    { "file": "h_00.jpg", "content": "Hot pink storefront with HAIR ACADEMY signage", "use": "hero" },
+    { "file": "h_01.jpg", "content": "Salon interior with styling chairs and floral wall", "use": "interior" },
+    { "file": "h_02.jpg", "content": "Blonde hair being coloured / foils detail", "use": "service detail" },
+    { "file": "h_05.jpg", "content": "Pink wall and wash basin area", "use": "interior/gallery" },
+    { "file": "h_06.jpg", "content": "Bright front window with seating and Dublin street view", "use": "interior/gallery" }
+  ]
+}

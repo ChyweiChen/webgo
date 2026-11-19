@@ -36,6 +36,18 @@ SHOWCASE_SITES = [
         "name": "Pipers Corner",
         "tagline": "A live music Irish pub website",
     },
+    {
+        "slug": "hair-academy",
+        "dir": "hair-academy",
+        "name": "Hair Academy",
+        "tagline": "A hair academy website",
+    },
+    {
+        "slug": "mcmahons-botanic",
+        "dir": "mcmahons-botanic",
+        "name": "McMahons Botanic",
+        "tagline": "A botanic pub website",
+    },
 ]
 
 SITES_BY_SLUG = {site["slug"]: site for site in SHOWCASE_SITES}
